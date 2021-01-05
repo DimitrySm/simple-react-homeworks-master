@@ -1,0 +1,22 @@
+* {
+  box-sizing: box-sizing;
+}
+
+.red {
+  background: red;
+}
+
+.default {
+  background: rgb(79, 79, 85);
+}
+
+.button__style {
+  margin-top: 10px;
+  height: 50px;
+  width: 50px;
+  border: none;
+  padding: 0 0;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+}
