@@ -4,18 +4,18 @@ import s from "./Header.module.css";
 
 function Header() {
   return (
-    <div>
+    <div className={s.nav__wrapper}>
       <nav>
-        <NavLink activeClassName={s.active} to="/hw1">
+        <NavLink activeClassName={s.active} className={s.nav__link} to="/hw1">
           H1
         </NavLink>
-        <NavLink activeClassName={s.active} to="/hw2">
+        <NavLink activeClassName={s.active} className={s.nav__link} to="/hw2">
           H2
         </NavLink>
-        <NavLink activeClassName={s.active} to="/hw3">
+        <NavLink activeClassName={s.active} className={s.nav__link} to="/hw3">
           H3
         </NavLink>
-        <NavLink activeClassName={s.active} to="/hw4">
+        <NavLink activeClassName={s.active} className={s.nav__link} to="/hw4">
           H4
         </NavLink>
       </nav>
