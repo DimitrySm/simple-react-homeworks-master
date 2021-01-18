@@ -7,16 +7,19 @@ function Header() {
     <div className={s.nav__wrapper}>
       <nav>
         <NavLink activeClassName={s.active} className={s.nav__link} to="/hw1">
-          H1
+          HW1
         </NavLink>
         <NavLink activeClassName={s.active} className={s.nav__link} to="/hw2">
-          H2
+          HW2
         </NavLink>
         <NavLink activeClassName={s.active} className={s.nav__link} to="/hw3">
-          H3
+          HW3
         </NavLink>
         <NavLink activeClassName={s.active} className={s.nav__link} to="/hw4">
-          H4
+          HW4
+        </NavLink>
+        <NavLink activeClassName={s.active} className={s.nav__link} to="/hw6">
+          HW6
         </NavLink>
       </nav>
     </div>

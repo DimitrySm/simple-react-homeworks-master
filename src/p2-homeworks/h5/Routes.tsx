@@ -4,6 +4,7 @@ import HW1 from "../h1/HW1";
 import HW2 from "../h2/HW2";
 import HW3 from "../h3/HW3";
 import HW4 from "../h4/HW4";
+import HW6 from "../h6/HW6";
 import Error404 from "./pages/Error404";
 import PreJunior from "./pages/PreJunior";
 
@@ -25,6 +26,7 @@ function Routes() {
         <Route path="/hw2" render={() => <HW2 />} />
         <Route path="/hw3" render={() => <HW3 />} />
         <Route path="/hw4" render={() => <HW4 />} />
+        <Route path="/hw6" render={() => <HW6 />} />
 
         {/*у этого роута нет пути, он отрисуется если пользователь захочет попасть на несуществующую страницу*/}
         <Route render={() => <Error404 />} />
